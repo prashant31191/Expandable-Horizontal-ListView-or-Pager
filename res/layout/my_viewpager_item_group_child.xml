@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.aurum.activities.PagerContainer
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mobiles"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal" />
+    </com.aurum.activities.PagerContainer>
+
+</RelativeLayout>
+
+
+<!-- <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mobiles"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp" /> -->

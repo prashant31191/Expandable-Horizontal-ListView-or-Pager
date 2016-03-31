@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d60"
+    android:background="@color/mainbg2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d60"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/oneplus_2"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textViewMainTitle"
+        android:layout_width="@dimen/d20"
+        android:layout_height="@dimen/d20"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/d5"
+        android:layout_marginTop="@dimen/d5"
+        
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="4"
+        android:textSize="@dimen/s9"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewTotalSubcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="2"
+        android:padding="5dp"
+        android:text="TextView "
+        android:textColor="@color/white"
+        android:textSize="@dimen/s12" />
+
+</RelativeLayout>
